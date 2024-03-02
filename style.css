@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Goudy Old Style', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+section {
+    margin: 100px 0;
+}
+
+h1, h2 {
+    font-size: 30px;
+}
+
+h2 {
+    margin: 0.3em 0 0.5em 0;
+}
+
+hr {
+    border: #000 solid 1px;
+    width: 90px;
+    margin: 0 auto;
+}
+
+.subcaps {
+    font-size: 0.6em;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.container {
+    width: 94vw;
+    margin: 1em;
+    font-size: 3vw;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.links {
+    padding: 5px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 700px) {
+    h1, h2 {
+        font-size: 5vw;
+    }
+
+    hr {
+        width: 12vw;
+    }
+
+    .row {
+        flex-direction: row;
+    }
+
+}
+
+                                                
